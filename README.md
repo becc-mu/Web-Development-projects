@@ -6,4 +6,16 @@ This folder contains a collection of Html/CSS and JavaScript exercise completed 
 
 [HTML](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS)
 
-[JavaScript](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
+- ### [Dasmoto-Arts-n-Crafts](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Dasmoto-Arts-n-Crafts)
+
+- ### [Grid-essenials](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Grid-essenials)
+
+- ### [Visual-Rules](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Visual-Rules)
+
+- ### [html-css-cheatsheet](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/html-css-cheatsheet-starting)
+
+- ### [Teacosy](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/teacozy)
+
+- [Form-story](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Form-story)
+
+[###JavaScript](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
