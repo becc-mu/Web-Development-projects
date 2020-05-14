@@ -1,0 +1,226 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: "Helvetica", sans-serif;
+  font-weight: 300px;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.12rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+aside,
+footer,
+header,
+main {
+  display: block;
+  margin: 0;
+  padding: 1.25rem;
+  /* border: 1px solid rgb(231, 17, 17); */
+  /* background-color: #000; */
+  color: rgb(255, 246, 240);
+}
+
+header {
+  position: sticky;
+  background-color: #000000;
+  top: 0px;
+  height: 69px;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+main {
+  background: #000;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to  the end line on main-axis */
+  justify-content: flex-end;
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.navigation a {
+  text-align: center;
+  padding: 1rem;
+  color: rgb(255, 246, 240);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(247, 226, 222);
+  background-color: rgba(220, 220, 220, 0.7);
+  cursor: pointer;
+}
+
+a:active {
+  color: rgb(247, 226, 222);
+}
+
+a:visited {
+  color: rgb(228, 218, 216);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  /* width: 100%;
+  margin: 15px auto;
+  background-color: black; */
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+figure {
+  margin: auto 10px;
+}
+
+figure img {
+  width: 300px;
+  height: 200px;
+}
+
+figcaption {
+  margin: 10px auto;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.item {
+  min-width: 95%;
+  background-color: rgba(177, 157, 140, 0.9);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 auto;
+  }
+}
+
+/* small screens */
+@media all and (min-width: 800px) {
+  header {
+    background-image: url(./assets/img-tea-cozy-logo.png);
+    background-repeat: no-repeat;
+
+    background-size: 15%;
+    background-position: left;
+    padding: 0;
+  }
+
+  .navigation {
+    flex-direction: row;
+  }
+
+  .logo {
+    height: 50px;
+    margin: 10px 0;
+    /* width: 100%; */
+    background-image: url(./assets/img-tea-cozy-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  header {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    height: 69px;
+    /* padding-top: 20px; */
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    margin: 0 auto;
+    /* margin-top: 5px; */
+  }
+
+  .hero-image {
+    background-image: url(assets/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+    height: 700px;
+  }
+
+  .hero h1,
+  p,
+  .hero-text {
+    background-color: black;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #locations {
+    background-image: url(./assets/img-locations-background.jpg);
+    min-height: 500px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .item {
+    background-color: rgba(0, 0, 0, 1);
+    min-width: 300px;
+    margin: 10px 20px;
+  }
+}

@@ -1,0 +1,185 @@
+html,
+body {
+  background: #e6e6e6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 8;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+nav ul {
+  /* list-style: none; */
+  margin: 0;
+  padding: 20px 0;
+  /* overflow: hidden;
+  background-color: #010e80;
+  display: table; */
+  /* width: 100%; */
+}
+
+nav li {
+  color: #fff;
+  display: inline;
+}
+
+li a {
+  display: inline-block;
+  width: 80px;
+  color: #fff;
+  font-family: "Raileway", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  /* padding: 30px 30px; */
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  position: relative;
+  right: 28px;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.supporting .col {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.supporting img {
+  height: 32px;
+  width: auto;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333;
+}
+
+h2 a {
+  padding: 33px 25px;
+  color: white;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  background-color: #111;
+}
+
+figcaption {
+  text-align: left;
+}
+
+article {
+  text-align: left;
+  margin: 15px;
+  max-width: 80%;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+aside {
+  left: 10px;
+  border: 1px solid black;
+  padding: 15px;
+  max-width: 80%;
+  position: relative;
+  border-color: #010e80;
+  border-width: 5px;
+  font-size: 18px;
+}
+
+section#media {
+  margin-bottom: 150px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #010e80;
+}
+
+footer p {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+
+video {
+  display: block;
+  width: 420px;
+  height: 250px;
+  padding: 15px;
+}
+
+audio {
+  padding: 15px;
+  width: 98%;
+  box-sizing: border-box;
+}
+
+embed {
+  width: 400px;
+  height: 458px;
+  padding: 15px;
+}

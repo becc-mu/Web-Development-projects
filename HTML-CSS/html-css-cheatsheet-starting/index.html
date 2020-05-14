@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Semantic HTML Cheatsheet</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <main>
+      <article>
+        <h1>Semantic HTML Ceatsheet</h1>
+        <section>
+          <h2>Document metadata</h2>
+          <p>
+            Metadata contains information about the page. This includes
+            information about styles, scripts and data to help software (search
+            engines, browsers, etc.) use and render the page. Metadata for
+            styles and scripts may be defined in the page or link to another
+            file that has the information.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt;base&gt;</td>
+                <td>
+                  The <strong>HTML</strong> &lt;base&gt; element specifies the
+                  base URL to use for all relative URLs in a document.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;head&gt;</td>
+                <td>
+                  The <strong>HTML</strong> &lt;head&gt; element contains
+                  machine-readable information (metadata) about the document,
+                  like its title, scripts, and style sheets.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;link&gt;</td>
+                <td>
+                  The <strong>HTML</strong> External Resource Link element
+                  (&lt;link&gt;) specifies relationships between the current
+                  document and an external resource. This element is most
+                  commonly used to link to stylesheets, but is also used to
+                  establish site icons (both "favicon" style icons and icons for
+                  the home screen and apps on mobile devices) among other
+                  things.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;meta&gt;</td>
+                <td>
+                  The <strong>HTML &lt;meta&gt; element</strong> contains style
+                  information for a document, or part of a document.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;title&gt;</td>
+                <td>
+                  The
+                  <strong>HTML Title element (&lt;title&gt;)</strong> defines
+                  the document's title that is shown in a browser's title bar or
+                  a page's tab.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h2>Semantic HTML</h2>
+          <p>
+            Semantic HTML introduces meaning to the code we write. Before
+            Semantic HTML the elements didn’t have any meaning as to what it
+            does or what content goes in it. An element such as &lt;div&gt; was
+            used as a general-purpose element to create things from headers to
+            footers to articles. With Semantic HTML we were introduced to
+            elements that tell developers and browsers exactly what it does and
+            what content should go in it.
+          </p>
+          <h2>Element Placement</h2>
+          <p>
+            Semantic HTML introduces elements that can tell developers exactly
+            what the element does or where it’s placed based on the name of that
+            element.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Element</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt;header&gt;</td>
+                <td>
+                  element represents introductory content, typically a group of
+                  introductory or navigational aids. It may contain some heading
+                  elements but also a logo, a search form, an author name, and
+                  other elements.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;body&gt;</td>
+                <td>
+                  represents the content of an HTML document. There can be only
+                  one &lt;body&gt; element in a document.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;nav&gt;</td>
+                <td>
+                  encapsulates the page’s navigational links. It is often placed
+                  inside the &lt;header&gt; or &lt;footer&gt;.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;main&gt;</td>
+                <td>
+                  encapsulates the main or dominiant content of a page or
+                  &lt;body&gt; of a document i.e. between the header/navigation
+                  and the footer areas.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;footer&gt;</td>
+                <td>
+                  includes the page's footer content at the bottom of the
+                  &lt;body&gt; typically information about the author of the
+                  section, copyright data or links related documents.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;section&gt;</td>
+                <td>
+                  <strong>&lt;section&gt;</strong> defines elements in a
+                  document, such as chapters, headings, or any other area of the
+                  document with the same theme.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;article&gt;</td>
+                <td>
+                  <strong>&lt;article&gt;</strong> holds content that makes
+                  sense on its own such as articles, blogs, and comments.
+                  Generally developers will use &lt;section&gt; to define a
+                  theme for the webpage and use &lt;article&gt; to write
+                  independent content for that theme. This does not mean that
+                  &lt;article&gt; has to be used with &lt;section&gt;.
+                </td>
+              </tr>
+              <tr>
+                <td>&lt;aside&gt;</td>
+                <td>
+                  <strong>&lt;aside&gt;</strong> is used to mark additional
+                  information that can enhance another element but isn’t
+                  required in order to understand the main content. Usually this
+                  information would be in a sidebar or a location where it
+                  doesn’t obstruct the main piece of content. An example of this
+                  would be an article that discusses how to take care of a dog
+                  and next to the article an ad would appear advertising a dog
+                  grooming product.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

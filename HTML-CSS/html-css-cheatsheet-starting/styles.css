@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+main {
+  margin: 5% 10%;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background-color: #f4f7f8;
+}
+
+th {
+  background-color: #eaeef2;
+}
+
+thead th:nth-child(1) {
+  width: 10%;
+}
+
+thead th:nth-child(2) {
+  width: 90%;
+}
+
+th,
+td {
+  border: 3px solid #ffffff;
+  height: 40px;
+  vertical-align: middle;
+  padding: 15px;
+}

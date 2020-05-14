@@ -1,0 +1,71 @@
+html {
+  font: 16px;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+
+.dasmoto {
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #eee;
+}
+
+.dasmoto > h1,
+.day-forecast {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.dasmoto h1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  text-align: center;
+  font: 6.25rem "Fira Sans", sans-serif;
+  color: khaki;
+}
+
+article img {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.item {
+  margin: 3rem auto;
+}
+
+.item > h2,
+.item > p {
+  margin: 0.2rem;
+  /* font-size: 1rem; */
+}
+
+.item > h2 {
+  margin: 0.5rem;
+  padding: 0.3rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.price {
+  font-weight: bold;
+  color: blue;
+}
+
+#brush {
+  background-color: mediumspringgreen;
+}
+
+#frame {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
