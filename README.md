@@ -20,12 +20,9 @@ Building my own HTML/CSS cheatsheet: work in progress
 
 - ### [Teacosy](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/teacozy)
 
--[Teacosy design template](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/teacozy/index.html)
+- [Teacosy design template](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/teacozy/index.html) : The completed task from design provided on pdf format.
 
-- The completed task from design provided on pdf format.
-
-- [Teacosy responsive](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/teacozy/about.html)
-- I have extended Teacosy project to create mobile-first, responsive by writing CSS that defines shared styles first then build up styles for larger screens with media queries, and uses relative unites.
+- [Teacosy responsive](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/teacozy/about.html): I have extended Teacosy project to create mobile-first, responsive by writing CSS that defines shared styles first then build up styles for larger screens with media queries, and uses relative unites.
 
 - ### [Form-story](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Form-story)
 
