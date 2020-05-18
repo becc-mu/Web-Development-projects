@@ -28,7 +28,7 @@ This folder contains a collection of Html/CSS and JavaScript exercise completed 
 
 ## [JavaScript](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
 
-    List of projects completed using javaScript language. Some are work in progress and will be updated when exercise is completed.
+  List of projects completed using javaScript language. Some are work in progress and will be updated when exercise is completed.
 
 - ### [Kelvin-Weather](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Kelvin-Weather)
 
