@@ -18,4 +18,4 @@ This folder contains a collection of Html/CSS and JavaScript exercise completed 
 
 - ### [Form-story](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Form-story)
 
-[###JavaScript](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
+## [JavaScript](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
