@@ -6,17 +6,17 @@ This folder contains a collection of Html/CSS and JavaScript exercise completed 
 
 - ### [Dasmoto-Arts-n-Crafts](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Dasmoto-Arts-n-Crafts)
 
-Html/css excersice.
+  Html/css excersice.
 
 - ### [Grid-essenials](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Grid-essenials)
 
-CSS/Grid
+  CSS/Grid
 
 - ### [Visual-Rules](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Visual-Rules)
 
 - ### [html-css-cheatsheet](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/html-css-cheatsheet-starting)
 
-Building my own HTML/CSS cheatsheet: work in progress
+  Building my own HTML/CSS cheatsheet: work in progress
 
 - ### [Teacosy](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/teacozy)
 
@@ -28,7 +28,7 @@ Building my own HTML/CSS cheatsheet: work in progress
 
 ## [JavaScript](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
 
-List of projects completed using javaScript language. Some are work in progress and will be updated when exercise is completed.
+    List of projects completed using javaScript language. Some are work in progress and will be updated when exercise is completed.
 
 - ### [Kelvin-Weather](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Kelvin-Weather)
 
@@ -38,16 +38,16 @@ List of projects completed using javaScript language. Some are work in progress 
 
 - ### [DogFactory](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/DogFactory.js)
 
-A simple object factory that creates a dog with getter and setter functionality.
+  A simple object factory that creates a dog with getter and setter functionality.
 
 - ### [Meal Maker](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/MealMaker.js)
 
-An random meal maker/generator method exercise.
+  An random meal maker/generator method exercise.
 
 - ### [RPS game](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Rps.js)
 
-Rock Paper Scissors game.
+  Rock Paper Scissors game.
 
 - ### [Eight balls](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/eightBalls.js)
 
-Generate classic Eight-balls output randomly.
+  Generate classic Eight-balls output randomly.
