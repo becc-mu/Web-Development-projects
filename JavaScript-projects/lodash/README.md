@@ -19,16 +19,21 @@ Do not write or modify code below this line.
 
 ## Ideate
 
-length = string.length
-padding = totalLength - length
-if padding <= length return string
-else if padding >length && padding % 2 === 0
-let fPadding - padding / 2;
-string.unshift(fPadding)
-string.push(fPadding)
-else
-fPadding = padding - 1 / 2
-string.unshift(fPadding)
-fPadding += 1;
-string.push(fPadding)
+```
+vars string, length
+if length <= string.length
+    return string
+
+if length > string.length
+let startPaddingLength
+let paddedString = ' '
+let fPadding
+let bPadding
+startPaddingLength = length - string.length
+fPadding = Math.floor(startPaddingLength / 2);
+bPadding = Math.round(startPaddingLength / 2)
+string = paddedString.repeat(fPadding)
+string += paddedString.repeat(bPadding)
 retrun string
+
+```
