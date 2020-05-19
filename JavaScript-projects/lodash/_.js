@@ -55,6 +55,17 @@ const _ = {
     }
     return hasValue;
   },
+
+  invert(object) {
+    let originalObject = {};
+    for (let key in object) {
+      let originalValue;
+      originalValue = key;
+      originalObject = { originalValue: key };
+    }
+
+    return originalObject;
+  },
 };
 
 module.exports = _;
