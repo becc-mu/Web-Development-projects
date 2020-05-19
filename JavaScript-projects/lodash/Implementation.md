@@ -40,15 +40,15 @@ retrun string
 
 # Implement\_.has()
 
-1: create object that takes key,value
-2: Boolean if key has value and not undefined or null else return false
-3: return false if !Object.keys()
+- 1: create object that takes key,value
+- 2: Boolean if key has value and not undefined or null else return false
+- 3: return false if !Object.keys()
 
 # Implement \_.invert()
 
 ## Ideate
 
-1: create invert that takes object
-2: create an empty object for inverted object
-3: loop through each key
-4: Set the original object's value at that key and set the value to be the origing key.
+- 1: create invert that takes object
+- 2: create an empty object for inverted object
+- 3: loop through each key
+- 4: Set the original object's value at that key and set the value to be the origing key.
