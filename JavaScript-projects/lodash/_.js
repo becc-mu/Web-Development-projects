@@ -44,6 +44,17 @@ const _ = {
       return (string += paddedString.repeat(bPadd));
     }
   },
+  has(object, key) {
+    // object (Object): The object to query.
+    // path (Array|string): The path to check.
+    let hasValue;
+    if (object[key] != undefined) {
+      hasValue = true;
+    } else {
+      hasValue = false;
+    }
+    return hasValue;
+  },
 };
 
 module.exports = _;

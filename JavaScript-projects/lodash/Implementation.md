@@ -8,7 +8,7 @@
 
 Do not write or modify code below this line.
 
-# Implement .pad()
+# Implement \_.pad()
 
 ## Specify
 
@@ -37,3 +37,9 @@ string += paddedString.repeat(bPadding)
 retrun string
 
 ```
+
+# Implement\_.has()
+
+1: create object that takes key,value
+2: Boolean if key has value and not undefined or null else return false
+3: return false if !Object.keys()
