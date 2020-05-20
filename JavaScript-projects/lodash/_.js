@@ -94,6 +94,19 @@ const _ = {
     let droppedArray = this.drop(array, dropNumber);
     return droppedArray;
   },
+
+  chunk(array, size) {
+    size = size ? size : 1;
+    let arrayChunks = [];
+    let arrayChunk;
+    let count = size;
+    for (i = 0; i < array.length; i += size) {
+      arrayChunk = array.slice(i, count);
+      arrayChunks.push(arrayChunk);
+      count += size;
+    }
+    return arrayChunks;
+  },
 };
 
 module.exports = _;

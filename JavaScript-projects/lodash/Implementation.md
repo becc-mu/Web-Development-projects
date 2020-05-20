@@ -67,7 +67,19 @@ retrun string
 ## Ideate
 
 - 1: Create dropWhile object with arguments: array, predicate function.
-- 2: create a method called pred that returns if negated predicate i.e. !predicate(element, index, array).
-- 3: Create a variable dropNumber that uses findIndex and truthy falue of pred i.e. predicate truthy value.
+- 2: Create a method called pred that returns if negated predicate i.e. !predicate(element, index, array).
+- 3: Create a variable dropNumber that uses findIndex and truthy value of pred i.e. predicate truthy value.
 - 4: Create droppedArray variable and sets its value to return value of this.drop() with its arguments as array, dropNumber.
 - 5: Finally return droppedArray.
+
+# Implement \_.chunk()
+
+## Ideate
+
+- 1: Add chunk() method to the loadash object with arguments: array, size.
+- 2: If size not specified return size as 1.
+- 3: Create an empty array arrayChunks that will contain all of the generated array chunks and a variable called arrayChunk.
+- 4: Create new variable called count and set value to size.
+- 3: Loop through array using for loop. The iterator should count in size. Use array.slice to create equal length of arrays with specified numbers as size. This should retrun arrayChunk in same order as original array.
+- 4: Use array.push to add arrayChunk to arrayChunks array.
+- 5: Increment slice end counter by size before the end of the loop.
