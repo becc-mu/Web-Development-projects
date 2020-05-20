@@ -52,3 +52,12 @@ retrun string
 - 2: create an empty object for inverted object.
 - 3: loop through each key.
 - 4: Set the original object's value at that key and set the value to be the origing key.
+
+# Implement \_.findKey()
+
+## Ideate
+
+- 1: add findKey object takes object and function.
+- 2: add findKey loop through object's key, value.
+- 3: return index of key.
+- 4: return undefined if no values

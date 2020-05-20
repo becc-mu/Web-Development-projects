@@ -66,6 +66,18 @@ const _ = {
 
     return originalObject;
   },
+
+  findKey(object, predicate) {
+    for (let key in object) {
+      let value = object[key];
+      let predicateReturnValue = predicate(value);
+      if (predicateReturnValue) {
+        return key;
+      }
+    }
+    undefined;
+    return undefined;
+  },
 };
 
 module.exports = _;
