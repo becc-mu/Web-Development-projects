@@ -82,9 +82,7 @@ const _ = {
   drop(array, number) {
     let result = [];
     number = number ? number : 1;
-    for (let i = number; i < array.length; i++) {
-      result.push(array[i]);
-    }
+    result = array.slice(number);
     return result;
   },
 };
