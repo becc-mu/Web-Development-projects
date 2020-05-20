@@ -61,3 +61,13 @@ retrun string
 - 2: add findKey loop through object's key, value.
 - 3: return index of key.
 - 4: return undefined if no values
+
+# Implement\_.dropWhile()
+
+## Ideate
+
+- 1: Create dropWhile object with arguments: array, predicate function.
+- 2: create a method called pred that returns if negated predicate i.e. !predicate(element, index, array).
+- 3: Create a variable dropNumber that uses findIndex and truthy falue of pred i.e. predicate truthy value.
+- 4: Create droppedArray variable and sets its value to return value of this.drop() with its arguments as array, dropNumber.
+- 5: Finally return droppedArray.

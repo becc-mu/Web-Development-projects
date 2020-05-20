@@ -85,6 +85,15 @@ const _ = {
     result = array.slice(number);
     return result;
   },
+
+  dropWhile(array, predicate) {
+    const pred = (element, index) => {
+      return !predicate(element, index, array);
+    };
+    let dropNumber = array.findIndex(pred);
+    let droppedArray = this.drop(array, dropNumber);
+    return droppedArray;
+  },
 };
 
 module.exports = _;
