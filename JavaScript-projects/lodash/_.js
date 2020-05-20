@@ -78,6 +78,15 @@ const _ = {
     undefined;
     return undefined;
   },
+
+  drop(array, number) {
+    let result = [];
+    number = number ? number : 1;
+    for (let i = number; i < array.length; i++) {
+      result.push(array[i]);
+    }
+    return result;
+  },
 };
 
 module.exports = _;
