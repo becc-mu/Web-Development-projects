@@ -28,13 +28,28 @@ This folder contains a collection of Html/CSS and JavaScript exercise completed 
 
 ## [JavaScript](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
 
-  List of projects completed using javaScript language. Some are work in progress and will be updated when exercise is completed.
+List of projects completed using javaScript language. Some are work in progress and will be updated when exercise is completed.
 
 - ### [Kelvin-Weather](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Kelvin-Weather)
 
 - ### [number-guesser](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/number-guesser-starting)
 
 - ### [lodash](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/lodash)
+
+A loadash library that implements ten methods that add new functionality for numbers, strings, objects, and arrays.
+
+In implementing each method, we will follow these four steps:
+
+- Specify the functionality of the method we are implementing
+- Ideate a game plan for how to implement this functionality in code
+- Implement our game plan
+- Test our code to ensure it works as expected
+
+- ### [Handlebars](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Handlebars)
+
+- [Musicon](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Handlebars/Musicon)
+
+This project was built using JavaScript objects, arrays, and control flow alongside built-in Handlebars iteration and control flow helpers.
 
 - ### [DogFactory](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/DogFactory.js)
 
