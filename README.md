@@ -49,7 +49,7 @@ In implementing each method, we will follow these four steps:
 
 - [Musicon](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Handlebars/Musicon)
 
-This project was built using JavaScript objects, arrays, and control flow alongside built-in Handlebars iteration and control flow helpers.
+A Web app for musical instrument shop. Implementing Handlebars; a simple templating language to build semantic template and compile JavaScript functions.
 
 - ### [DogFactory](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/DogFactory.js)
 
@@ -57,7 +57,7 @@ This project was built using JavaScript objects, arrays, and control flow alongs
 
 - ### [Meal Maker](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/MealMaker.js)
 
-  An random meal maker/generator method exercise.
+  A random meal maker/generator method exercise.
 
 - ### [RPS game](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Rps.js)
 
