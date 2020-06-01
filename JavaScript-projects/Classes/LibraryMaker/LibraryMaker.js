@@ -60,10 +60,11 @@ class Book extends Media {
 }
 
 class Movie extends Media {
-  constructor(director, title, runTime) {
+  constructor(director, title, runTime, movieCast) {
     super(title);
     this._director = director;
     this._runTime = runTime;
+    this._movieCast = movieCast;
   }
 
   get director() {
@@ -72,6 +73,55 @@ class Movie extends Media {
 
   get runTime() {
     return this.runTime;
+  }
+
+  get movieCast() {
+    return this._movieCast;
+  }
+
+  addMovieCast(newMovieCast) {
+    return this._movieCast.push(newMovieCast);
+  }
+}
+
+// CD class parent class Media
+class CD extends Media {
+  constructor(artist, title, songs) {
+    super(title);
+    this._artist = artist;
+    this._songs = songs;
+  }
+
+  get artist() {
+    return this._artist;
+  }
+
+  get songs() {
+    return this._songs;
+  }
+
+  addSongs(newSong) {
+    console.log(newSong);
+    return this._songs.push(newSong);
+  }
+
+  shuffle() {
+    let shuffled = [];
+    let counter = this._songs.length;
+
+    for (let i = 0; i < counter; i++) {
+      let length = this._songs.length;
+      let randomNumber = Math.floor(Math.random() * counter);
+      let song = this._songs[randomNumber];
+      if (!shuffled.includes(song)) {
+        if (shuffled.length < length) {
+          shuffled.push(this._songs[randomNumber]);
+        }
+        //  shuffled;
+      }
+      shuffled;
+    }
+    return shuffled;
   }
 }
 
@@ -82,17 +132,41 @@ smithWillow.toggleCheckOutStatus();
 smithWillow.addRating(4);
 smithWillow.addRating(5);
 smithWillow.addRating(5);
-
 console.log(smithWillow.isCheckedOut);
 console.log(smithWillow.getAverageRating());
 
 // Movie instance
-const speed = new Movie("Jan de Bont", "Speed", 116);
-
+const speed = new Movie("Jan de Bont", "Speed", 116, [
+  "Keanu Reeves",
+  "Sandra Bullock",
+  "Joe Morton",
+]);
 speed.addRating(1);
 speed.addRating(1);
 speed.addRating(5);
-speed.toggleCheckOutStatus();
+speed.addMovieCast("Beth Grant");
 
+speed.toggleCheckOutStatus();
 console.log(speed.isCheckedOut);
+
 console.log(speed.getAverageRating());
+console.log(speed.movieCast);
+
+// songTitles, title
+let nenahSsongs = [
+  "Fade Away",
+  "Radial Drill",
+  "State Assembly",
+  "Crazy Dreams and High Ideals",
+  "Abderhamane's Demise",
+  "Animal Space",
+  "Love Forever",
+  "Private Armies",
+];
+
+const nenahCherry = new CD("Nenah Cherry", "Crazy", nenahSsongs);
+nenahCherry.addSongs("Added a New song");
+
+console.log(nenahCherry.title);
+console.log(nenahCherry.shuffle());
+// console.log(nenahCherry.songs)
