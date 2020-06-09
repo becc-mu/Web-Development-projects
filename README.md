@@ -51,6 +51,12 @@ In implementing each method, we will follow these four steps:
 
 A Web app for musical instrument shop. Implementing Handlebars; a simple templating language to build semantic template and compile JavaScript functions.
 
+- ### [Classes](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes)
+
+- [Library Maker](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes/LibraryMaker)
+
+- [School Catalog](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes/SchoolCatalog)
+
 - ### [DogFactory](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/DogFactory.js)
 
   A simple object factory that creates a dog with getter and setter functionality.
