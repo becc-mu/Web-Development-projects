@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Child } from './Child';
-import { Sibling } from './Sibling';
+import App from './App';
+// import { Sibling } from './Sibling';
 
 class Parent extends React.Component {
   constructor(props) {

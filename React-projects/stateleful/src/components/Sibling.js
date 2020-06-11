@@ -1,6 +1,6 @@
 import React from 'react';
 
-export class Sibling extends React.Component {
+class Sibling extends React.Component {
   render() {
     const name = this.props.name;
     return (
@@ -12,3 +12,5 @@ export class Sibling extends React.Component {
     );
   }
 }
+
+export default Sibling;
