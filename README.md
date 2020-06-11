@@ -1,6 +1,6 @@
 # Web-Development-projects
 
-This folder contains a collection of Html/CSS and JavaScript exercise completed from online course. I have learned foundamentals of web development concepts.
+This folder contains a collection of Html/CSS, JavaScript and React.js exercises completed from online course. I have learned foundamentals of web development concepts.
 
 ## [HTML-CSS](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS)
 
@@ -26,7 +26,7 @@ This folder contains a collection of Html/CSS and JavaScript exercise completed 
 
 - ### [Form-story](https://github.com/becc-mu/Web-Development-projects/tree/master/HTML-CSS/Form-story)
 
-## [JavaScript](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
+## [JavaScript Projects](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects)
 
 List of projects completed using javaScript language. Some are work in progress and will be updated when exercise is completed.
 
@@ -72,3 +72,11 @@ A Web app for musical instrument shop. Implementing Handlebars; a simple templat
 - ### [Eight balls](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/eightBalls.js)
 
   Generate classic Eight-balls output randomly.
+
+## [React Projects](https://github.com/becc-mu/Web-Development-projects/tree/master/React-projects)
+
+In section includes the concepts and techniques learned in building Front-end applications with React. Instructions and READMEs are included in each project.
+
+- [Revenous](https://github.com/becc-mu/Web-Development-projects/tree/master/React-projects/revenous)
+
+- [React programming pattern](https://github.com/becc-mu/Web-Development-projects/tree/master/React-projects/stateleful)
