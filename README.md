@@ -26,24 +26,21 @@ List of projects completed using javaScript language. Some are work in progress 
 
 - [number-guesser](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/number-guesser-starting)
 
-- [lodash](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/lodash): A loadash library that implements ten methods that add new functionality for numbers, strings, objects, and arrays.
-
-In implementing each method, we will follow these four steps:
-
-- Specify the functionality of the method we are implementing
-- Ideate a game plan for how to implement this functionality in code
-- Implement our game plan
-- Test our code to ensure it works as expected
+- [Lodash](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/lodash): A loadash library that implements ten methods that add new functionality for numbers, strings, objects, and arrays. In implementing each method, we will follow these four steps.
+ 1) Specify the functionality of the method we are implementing
+ 2) Ideate a game plan for how to implement this functionality in code
+ 3) Implement our game plan
+ 4) Test our code to ensure it works as expected
 
 - [Handlebars](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Handlebars)
 
 - [Musicon](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Handlebars/Musicon): A Web app for musical instrument shop. Implementing Handlebars; a simple templating language to build semantic template and compile JavaScript functions.
 
-- [Classes](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes)
+ [Classes](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes)
 
--- [Library Maker](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes/LibraryMaker)
+ - [Library Maker](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes/LibraryMaker)
 
--- [School Catalog](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes/SchoolCatalog)
+ - [School Catalog](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/Classes/SchoolCatalog)
 
 - [DogFactory](https://github.com/becc-mu/Web-Development-projects/tree/master/JavaScript-projects/DogFactory.js): A simple object factory that creates a dog with getter and setter functionality.
 
