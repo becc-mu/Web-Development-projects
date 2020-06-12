@@ -1,3 +1,16 @@
+## Ravenous
+
+A client-side React application, utilizing the Yelp API to search for local businesses.
+
+### Below is a list of some potential features to add to Ravenous:
+
+- Make addresses clickable and have them open the address in Google Maps in a new tab.
+- Make images clickable and have them open the business’ website in a new tab.
+- Clicking on a different sorting option automatically requeries the Yelp API, rather than having to manually click “Let’s Go” again.
+- Implement your own type of sort (for example, by entering a distance or radius from a central location).
+- Allow you to search by pressing “Enter” (or “Return”) on your keyboard, as opposed to manually clicking.
+- Add autocompletion of addresses to the “Location” input.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -72,19 +85,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 Moved business information to the container component (App)
 Passed information from parent components (App) to child components (BusinessList, Business)
 This is typical of the flow of information in React apps.
-
-### Further improvement:
-
-- consider the following questions:
-
-  1. The “Let’s Go” button doesn’t do anything at the moment. How might you simulate a query to the Yelp API?
-  2. A user may decide to search with a different sorting option (for example, “Highest Rated”, or “Most Reviewed”). How can you handle this change in state using React?
-
-### Below is a list of some potential features to add to Ravenous:
-
-- Make addresses clickable and have them open the address in Google Maps in a new tab.
-- Make images clickable and have them open the business’ website in a new tab.
-- Clicking on a different sorting option automatically requeries the Yelp API, rather than having to manually click “Let’s Go” again.
-- Implement your own type of sort (for example, by entering a distance or radius from a central location).
-- Allow you to search by pressing “Enter” (or “Return”) on your keyboard, as opposed to manually clicking.
-- Add autocompletion of addresses to the “Location” input.
