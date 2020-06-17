@@ -30,6 +30,12 @@ class SearchBar extends React.Component {
     }
   }
 
+  getSortByOption() {
+    if (this.props.sortBy === 'Enter') {
+      return this.state.sortBy.value;
+    }
+  }
+
   handleSortByChange(sortByOption) {
     this.setState({ sortBy: sortByOption });
   }
@@ -60,6 +66,7 @@ class SearchBar extends React.Component {
           className={this.getSortByClass(sortByOptionsValue)}
           key={sortByOptionsValue}
           onClick={this.handleSortByChange.bind(this, sortByOptionsValue)}
+          onKeyPress={this.getSortByOption.bind(this, sortByOptionsValue)}
         >
           {sortByOption}
         </li>
