@@ -1,12 +1,17 @@
 import React from 'react';
+// import Playlist from '../Playlist/Playlist';
+import TrackList from '../TrackList/TrackList';
 
 import './SearchResults.css';
 
 class SearchResults extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Search Results</h1>
+      <div className='SearchResults'>
+        <h2>Results</h2>
+        {/* Add a TrackList componen */}
+        <TrackList tracks={this.props.searchResults} />
+        {/* <Playlist /> */}
       </div>
     );
   }

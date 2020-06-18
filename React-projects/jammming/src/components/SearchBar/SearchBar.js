@@ -1,10 +1,13 @@
 import React from 'react';
 
+import './SearchBar.css';
+
 class SearchBar extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Search Bar</h1>
+      <div className='SearchBar'>
+        <input placeholder='Enter A Song, Album, or Artist' />
+        <button className='SearchButton'>SEARCH</button>
       </div>
     );
   }
