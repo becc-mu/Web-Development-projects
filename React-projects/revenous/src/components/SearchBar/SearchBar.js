@@ -30,14 +30,26 @@ class SearchBar extends React.Component {
     }
   }
 
-  getSortByOption() {
-    if (this.props.sortBy === 'Enter') {
-      return this.state.sortBy.value;
+  handleSortByOption(ev) {
+    if (ev.key === 'Enter') {
+      this.props.searchYelp(
+        this.state.term,
+        this.state.location,
+        this.state.sortBy
+      );
     }
   }
 
   handleSortByChange(sortByOption) {
-    this.setState({ sortBy: sortByOption });
+    this.setState({ sortBy: sortByOption }, () => {
+      if (this.state.term && this.state.location) {
+        this.props.searchYelp(
+          this.state.term,
+          this.state.location,
+          this.state.sortBy
+        );
+      }
+    });
   }
 
   handleTermChange(ev) {
@@ -66,7 +78,7 @@ class SearchBar extends React.Component {
           className={this.getSortByClass(sortByOptionsValue)}
           key={sortByOptionsValue}
           onClick={this.handleSortByChange.bind(this, sortByOptionsValue)}
-          onKeyPress={this.getSortByOption.bind(this, sortByOptionsValue)}
+          onKeyPress={this.handleSortByOption.bind(this, sortByOptionsValue)}
         >
           {sortByOption}
         </li>
@@ -83,9 +95,15 @@ class SearchBar extends React.Component {
           <input
             placeholder={'Search Businesses'}
             onChange={this.handleTermChange}
+            onKeyPress={this.handleSortByOption}
           />
-          <input placeholder={'Where?'} onChange={this.handleLocationChange} />
+          <input
+            placeholder={'Where?'}
+            onChange={this.handleLocationChange}
+            onKeyPress={this.handleSortByOption}
+          />
         </div>
+
         <div className='SearchBar-submit'>
           <a onClick={this.handleSearch}>Let's Go</a>
         </div>
