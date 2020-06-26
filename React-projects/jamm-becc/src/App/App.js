@@ -4,7 +4,11 @@ import './App.css';
 
 class App extends React.Component {
   render() {
-    return <div className='App'></div>;
+    return (
+      <div className='App'>
+        <h1>Jamm-becc</h1>
+      </div>
+    );
   }
 }
 
