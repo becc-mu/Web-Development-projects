@@ -1,0 +1,30 @@
+.Playlists {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.PlaylistsContainer {
+  width: 92%;
+  max-height: 600px;
+  overflow-y: scroll;
+  padding: 0.88rem;
+  margin-top: 10%;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .Playlist {
+    width: 37%;
+  }
+
+  .PlaylistsContainer {
+    width: 50%;
+  }
+}

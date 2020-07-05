@@ -3,9 +3,10 @@
   flex-direction: column;
   align-items: center;
   overflow-y: scroll;
-  width: 37%;
-  max-height: 950px;
+  width: 90%;
+  max-height: 600px;
   padding: 2.27rem 1.16rem;
+  margin-top: 10%;
   background-color: rgba(1, 12, 63, 0.7);
   box-shadow: 0 4px 2px 2px #000000;
 }
@@ -45,8 +46,12 @@
   background: transparent;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (min-width: 760px) {
   .Playlist {
-    width: 90%;
+    flex-direction: column;
+    width: 37%;
+    padding: 0;
+    margin-top: 0;
+    align-self: baseline;
   }
 }

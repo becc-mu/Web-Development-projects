@@ -3,6 +3,9 @@ import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
 import MessageBox from '../MessageBox/MessageBox';
+import Dropdown from '../Dropdown/Dropdown';
+import PlaylistEntry from '../Playlists/PlaylistEntry';
+import Playlists from '../Playlists/Playlists';
 import Spotify from '../../util/Spotify';
 
 import './App.css';
@@ -29,6 +32,7 @@ class App extends React.Component {
     this.removeTrack = this.removeTrack.bind(this);
     this.save = this.save.bind(this);
     this.onClearSearch = this.onClearSearch.bind(this);
+    this.onClearPlaylist = this.onClearPlaylist.bind(this);
     this.loadPlaylist = this.loadPlaylist.bind(this);
     this.removePlaylist = this.removePlaylist.bind(this);
   }
@@ -39,6 +43,10 @@ class App extends React.Component {
 
   onClearSearch() {
     this.setSearchTerm('');
+  }
+
+  onClearPlaylist() {
+    this.setState({ playlist: [] });
   }
 
   setMessage(newMessage) {
@@ -145,6 +153,7 @@ class App extends React.Component {
         <SearchBar
           term={this.state.searchTerm}
           onTermChange={this.setSearchTerm}
+          onKeyPress={this.setSearchTerm}
           onSearch={this.search}
           onClear={this.onClearSearch}
         />
@@ -160,14 +169,19 @@ class App extends React.Component {
             onRemoveTrack={this.removeTrack}
             onTitleChange={this.setPlaylistTitle}
             onSave={this.save}
+            onClear={this.onClearPlaylist}
           />
-          {/* <Playlists
-            title='My stored Playlists'
-            playlists={this.state.userPlaylists}
-            onLoadPlaylist={this.loadPlaylist}
-            onRemovePlaylist={this.removePlaylist}
-          /> */}
+          {/* <Dropdown
+          title='Select playlist'
+          playlists={this.state.userPlaylists}
+        /> */}
         </div>
+        <Playlists
+          title='My stored Playlists'
+          playlists={this.state.userPlaylists}
+          onLoadPlaylist={this.loadPlaylist}
+          onRemovePlaylist={this.removePlaylist}
+        />
       </div>
     );
   }
