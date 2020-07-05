@@ -6,22 +6,28 @@ class SearchBar extends React.Component {
   constructor(props) {
     super(props);
     this.handleTermChange = this.handleTermChange.bind(this);
-    // this.handleKeyPress = this.handleKeyPress.bind(this);
+    this.handleKeyPress = this.handleKeyPress.bind(this);
   }
 
   handleTermChange(ev) {
     this.props.onTermChange(ev.target.value);
   }
 
+  handleKeyPress(ev) {
+    if (ev.key === 'Enter') {
+      this.props.onSearch(this.props.searchTerm);
+    }
+  }
+
   render() {
-    const { onSearch, onClear, term } = this.props;
+    const { onSearch, onClear, term, onKeyPress } = this.props;
     return (
       <div className='SearchBar'>
         <input
           onChange={this.handleTermChange}
           value={term}
           placeholder='Enter A Song, Album, or Artist'
-          // onKeyPress={this.handleKeyPress}
+          onKeyPress={this.handleKeyPress}
         />
         <button className='SearchButton' onClick={onSearch}>
           SEARCH

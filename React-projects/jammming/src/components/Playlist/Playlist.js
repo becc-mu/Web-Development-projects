@@ -24,6 +24,7 @@ class Playlist extends React.Component {
       playlistTracks,
       onRemove,
       onSave,
+      onClear,
     } = this.props;
     const action = {
       symbole: '-',
@@ -39,6 +40,9 @@ class Playlist extends React.Component {
         <TrackList tracks={tracks} action={action} isRemoval={true} />
         <button className='Playlist-save' onClick={onSave}>
           SAVE TO SPOTIFY
+        </button>
+        <button className='Playlist-save' onClick={onClear}>
+          CLEAR
         </button>
       </div>
     );
