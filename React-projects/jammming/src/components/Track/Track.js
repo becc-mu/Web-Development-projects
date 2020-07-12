@@ -5,6 +5,10 @@ import './Track.css';
 class Track extends React.Component {
   constructor(props) {
     super(props);
+    // this.state = {
+    //   isRemoval: false,
+    // };
+
     this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
@@ -12,7 +16,16 @@ class Track extends React.Component {
   }
 
   render() {
-    const { track, action } = this.props;
+    const {
+      track,
+      // action,
+      onRemoveTrack,
+      onAddTrack,
+      isRemoval = false,
+    } = this.props;
+    const action = isRemoval
+      ? { symbol: '-', func: onRemoveTrack }
+      : { symbol: '+', onAddTrack };
     return (
       <div>
         <li className='Track'>
